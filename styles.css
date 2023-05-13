@@ -1,0 +1,347 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img{
+  width:150px;
+}
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links ul li a{
+  color:#8c1010;
+  text-decoration: none;
+  font-size: 13px;
+}
+.nav-links ul li::after{
+  content:'';
+  width: 0%;
+  height: 2px;
+  background: #6b0606;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+  width: 100%;
+}
+.text-box{
+  width: 90%;
+  color:#fff;
+  position:absolute;
+  top: 50%;
+  right: 40%;
+  transform:translate(-50%,-50%);
+  text-align:center;
+}
+.text-box hl{
+  font-size: 72px;
+}
+.text-box p{
+  margin:10px 0 40px;
+  font-size:14px;
+  color:#af0000;
+}
+.hero-btn{
+  display:inline-nlock;
+  text-decoration: none;
+  color:#000000;
+  border: 1px solid #f31c1c;
+  padding:12px 34px;
+  font-size: 13px;
+  background: tranparent;
+  position: relative;
+  cursor: pointer;
+}
+
+/* COLOR START */
+#B200{
+  color: #79260C;
+}
+#B150{
+  color: #DEC22E;
+}
+#B100{
+  color: #F5B85B;
+}
+#DB200{
+  color: #44372A;
+}
+#G200{
+  color: #0EA726;
+}
+#G150{
+  color: #6F6B15;
+}
+#G100{
+  color: #8ADB24;
+}
+/* COLOR END */
+
+
+/* DIV BOX Color START */
+#BoxCategory_1 {
+  background-color: #00f583;
+}
+
+#BoxCategory_2 {
+  background-color: #c14fd7a7;
+}
+
+#BoxCategory_3 {
+  background-color: #f5dd00;
+}
+#BoxCategory_4 {
+  background-color: #1000f5;
+}
+#BoxCategory_5 {
+  background-color: #00d0f5;
+}
+#BoxCategory_6 {
+  background-color: #08f500;
+}
+/* DIV BOX Color END */
+
+
+
+
+.welcometext{
+left: 500px;;
+top: 600px;
+}
+
+.bird{
+  left: 500px;
+  top: 300px;
+}
+
+.about-col-1{
+  left: 50px;
+  top: 500px;
+
+}
+
+.word1{
+  position: absolute;
+  font: 300px;
+  left: 300px;
+  top: 400px;
+ background-color: #cc5959;
+
+}
+
+.word2{
+  position: absolute;
+  font: 300px;
+  left: 300px;
+  top: 300px;
+ background-color: #c0cdc2;
+}
+
+.my artwork2{
+  position: absolute;
+  font: 300px;
+  left: 300px;
+  top: 300px;
+}
+
+.my artwork {
+  background-color: rgb(60, 56, 56);
+  color: white;
+  text-align: center;
+  width: 32%;
+  height: 400px;
+  float: left;
+  padding-top: 30px;
+
+
+  
+}
+
+.myartwork2{
+  text-align: center;
+  padding: -50px;
+  left: 100px;
+  height: 500px;
+}
+
+.work11{
+  text-align: left;
+  padding: 50px;
+  left: 100px;
+  height: 500px;
+}
+
+ 
+#myHeading_1 {
+  margin: 5%; align-items: center; font-size: 250%; margin-left: 3%;
+}
+
+.word5{
+  position: absolute;
+  font: 500px;
+  left: 700px;
+  top: 1600px;
+}
+
+.skills{
+  position: absolute;
+  font: 40px;
+  left: -650px;
+  top: 840px;
+}
+
+.INTEREST{
+  position: absolute;
+  font: 40px;
+  left: 100px;
+  top: 840px;
+}
+
+.word6{
+  position: absolute;
+  font: 500px;
+  left: -400px;
+  top: 900px;
+  color: white;
+}
+
+.word7{
+  position: absolute;
+  font: 500px;
+  left: 300px;
+  top: 900px;
+  color: white;
+}
+
+.ps{
+  position: absolute;
+  font: 40px;
+  left: -600px;
+  top: 1050px;
+}
+
+.word8{
+  position: absolute;
+  font-size: 30px;
+  left: 200px;
+  top: 1050px;
+  color: rgb(0, 0, 0);
+}
+
+.book2{
+  position: absolute;
+  font: 40px;
+  left: -600px;
+  top: 1500px;
+}
+
+.word9{
+ 
+  position: absolute;
+  font-size: 30px;
+  left: -300px;
+  top:1700px;
+  color: rgb(0, 0, 0);
+  
+}
+
+.word10{
+  position: absolute;
+  font-size: 30px;
+  left: 100px;
+  top:1700px;
+  color: rgb(0, 0, 0);
+}
+
+.word11{
+  position: absolute;
+  font-size: 14px;
+  left: 150px;
+  top:2900px;
+  color: rgb(0, 0, 0);
+}
+
+
+.word12{
+  position: absolute;
+  left: 500px;
+  top: 100px;
+  color: white;
+}
+
+.Photos{
+  position: absolute;
+  font: 40px;
+  left: 150px;
+  top: 300px;
+}
+
+.word13{
+  font-size: 40px;
+  position: relative;
+  left: 100px;
+  top: 2280px;
+  color: rgb(0, 0, 0);
+}
+
+.Photos1{
+  position: absolute;
+  font: 40px;
+  left: 10px;
+  top: 2400px;
+}
+
+.Photos2{
+  position: absolute;
+  font: 40px;
+  left: 100px;
+  top: 2500px;
+}
+.word14{
+  font-size: 17px;
+  position: relative;
+  left: 550px;
+  top: 2500px;
+
+}
+
+.photos3{
+  position: absolute;
+  left: 200px;
+  top: 150px;
+  width: 300px; 
+  height: 1000px;
+}
+
+.word16{
+  font-size: 60px;
+  position: relative;
+  left: 550px;
+  top: 100px;
+}
+
+.photos4{
+  position: absolute;
+  left: 500px;
+  top: 1000px;
+  width: 300px; 
+  height: 1000px;
+}
